@@ -4,10 +4,24 @@ using System;
 
 namespace lab1.Factories
 {
+    /// <summary>
+    /// Абстрактная фабрика для создания книг
+    /// </summary>
     public abstract class BaseBookFactory
     {
+        /// <summary>
+        /// Себестоимость книги — показатель ее типа
+        /// </summary>
         protected abstract uint CostPrice { get; }
 
+        /// <summary>
+        /// Создание книги
+        /// </summary>
+        /// <param name="writerName">Имя писателя</param>
+        /// <param name="illustratorName">Имя иллюстратора</param>
+        /// <param name="publisherName">Имя издателя</param>
+        /// <param name="title">Название книги</param>
+        /// <returns></returns>
         public Book MakeBook(string writerName, string illustratorName, string publisherName, string title)
         {
             Console.WriteLine($"Начата книга {title}");
