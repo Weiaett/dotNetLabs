@@ -136,9 +136,9 @@ namespace lab3
             }
         }
 
-        public void CountBooks(Func<IPublishingOffice<T>, string> counter)
+        public void CountBooks(Func<IPublishingOffice<T>, int> counter)
         {
-            Console.WriteLine(counter(this));
+            Console.WriteLine($"Издательство выпустило {counter(this)} шт. коллекционных книг.");
         }
     }
 }

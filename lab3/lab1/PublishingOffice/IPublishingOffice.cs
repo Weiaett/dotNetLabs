@@ -32,7 +32,23 @@ namespace lab3
 
         void PrintMembers();
 
+        /// <summary>
+        /// Сортировка книг издательства 
+        /// </summary>
+        /// <param name="comparator">Метод, сравнивающий два объекта одного типа</param>
         //public delegate int Comp(IBook first, IBook second);
         void SortBooks(Comparison<T> comparator);
+
+        /// <summary>
+        /// Взаимодействие с сотрудниками
+        /// </summary>
+        /// <param name="interaction">Делегат, инкапсулирующий метод взаимодействия</param>
+        void InteractWithActors(Action<IActor<ISalary>> interaction);
+
+        /// <summary>
+        /// Подсчет книг, удовлетворяющих определенным в counter параметрам
+        /// </summary>
+        /// <param name="counter">Делегат, инкапсулирующий метод подсчета</param>
+        void CountBooks(Func<IPublishingOffice<T>, int> counter);
     }
 }

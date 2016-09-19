@@ -56,12 +56,21 @@ namespace lab3
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// Метод, поднимающий з/п сотрдника на 1%
+        /// </summary>
+        /// <param name="actor">Сотрудник</param>
         private static void riseSalary(IActor<ISalary> actor)
         {
             actor.Salary.Sum += (int)(actor.Salary.Sum * 0.1);
         }
 
-        private static string countCollectionBooks(IPublishingOffice<IBook> office)
+        /// <summary>
+        /// Метод, подсчитывающий, сколько коллекционных книг выпустило издательство
+        /// </summary>
+        /// <param name="office">Издательство</param>
+        /// <returns></returns>
+        private static int countCollectionBooks(IPublishingOffice<IBook> office)
         {
             int num = 0;
             foreach (IBook book in office)
@@ -71,7 +80,7 @@ namespace lab3
                     num++;
                 }
             }
-            return $"Издательство выпустило {num} шт. коллекционных книг.";
+            return num;
         }
     }
 }
