@@ -11,17 +11,8 @@ namespace lab3
 
         public static int SortByPublicationYear(IBook first, IBook second)
         {
-            //return first.PublicationYear.CompareTo(second.PublicationYear);
-            bool firstGreater = false;
-            if (first.PublicationYear > second.PublicationYear)
-            {
-                firstGreater = true;
-            }
-            return firstGreater ? 1 : -1;
+            return first.PublicationYear.CompareTo(second.PublicationYear);
         }
-
-
-
 
         public static int SortByTitleDesc(IBook first, IBook second)
         {
