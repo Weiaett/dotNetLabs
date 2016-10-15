@@ -5,7 +5,7 @@ namespace lab5
     /// <summary>
     /// Базовое пользовательское исключение
     /// </summary>
-    public class UserException : Exception
+    public class UserException : ApplicationException
     {
         public UserException(string message) : base(message)
         {

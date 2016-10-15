@@ -18,7 +18,7 @@ namespace lab3
             logger.OnLog += Logger_OnLog;
             FileBookFactory factory = new FileBookFactory(logger);
 
-            ExceptonLogger exLogger = new ExceptonLogger(Path.Combine(projectPath, "exeptions_log.txt"));
+            ExceptonLogger exLogger = new ExceptonLogger(/*Path.Combine(projectPath, "exeptions_log.txt")*/);
             string configsPath = Path.Combine(projectPath, "Configs");
             
             if (Directory.Exists(configsPath)) {

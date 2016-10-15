@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="lab3.Actor&lt;T&gt;" Collapsed="true">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAEAAAAAAAAAAAEIAQAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actors\Actor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab3.PublishingOffice&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgKAAAAAABAAABAQCICABgQIAAAAAAAECAAEAABRIAA=</HashCode>
+      <FileName>PublishingOffice\PublishingOffice.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="lab3.PublishingOfficeEnumerator&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAAgAACAAAAAAAAAAAAAoAAAEAABAAA=</HashCode>
+      <FileName>PublishingOffice\PublishingOfficeEnumerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="lab3.Program" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab3.Comparators" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAQAAAAAAAAAAAAAAAQAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Comparators.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab3.Actors.Illustrator&lt;T&gt;" Collapsed="true">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actors\Illustrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab3.Actors.Publisher&lt;T&gt;" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actors\Publisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab3.Actors.Writer&lt;T&gt;" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actors\Writer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab3.Factories.BaseBookFactory" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAQAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\BaseBookFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab3.Factories.CollectionBookFactory" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\CollectionBookFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab3.Factories.FileBookFactory" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\FileBookFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab3.Factories.OrdinarBookFactory" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\OrdinarBookFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab4.Logger.DoWorkArgs" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger\DoWorkArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab4.Logger.Logger" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAACAAACAECAAAAAAAAAEAA=</HashCode>
+      <FileName>Logger\Logger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab4.Logger.OnLogArgs&lt;T&gt;" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAEAAAAAAAAAAAAAAAMAAA=</HashCode>
+      <FileName>Logger\OnLogArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab5.Logger.ExceptonLogger" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger\ExceptonLogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab3.Products.Book" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAECAAAAAAAAAAAAAAQAIgACAEAABA=</HashCode>
+      <FileName>Products\Book.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab3.Products.Illustration" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Products\Illustration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab3.Products.Product" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Products\Product.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab3.Products.Text" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Products\Text.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab3.Wages.Reward" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Wages\Reward.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab3.Wages.Salary" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQ=</HashCode>
+      <FileName>Wages\Salary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab3.Wages.Wage" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAA=</HashCode>
+      <FileName>Wages\Wage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab5.UserException" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab5.FileFormatException" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab5.CostPriceException" Collapsed="true">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="lab3.IActor&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAEAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actors\IActor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab3.IContractProvider&lt;T&gt;" Collapsed="true">
+    <Position X="15" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>PublishingOffice\IContractProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab3.IPublishingOffice&lt;T&gt;" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAAAAAABAAAAAACAAAAgQIAAAAAAAACAAAAAABAAA=</HashCode>
+      <FileName>PublishingOffice\IPublishingOffice.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab3.Actors.IPerson" Collapsed="true">
+    <Position X="3.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actors\IPerson.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab4.Logger.ILogger" Collapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAACAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger\ILogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab5.Logger.IExceptionLogger" Collapsed="true">
+    <Position X="16.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger\IExceptionLogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab3.Products.IBook" Collapsed="true">
+    <Position X="13.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAUAACAAAAAAAAAAAAAAQAIgACAEAAAA=</HashCode>
+      <FileName>Products\IBook.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab3.Wages.IReward" Collapsed="true">
+    <Position X="8.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Wages\IReward.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab3.Wages.ISalary" Collapsed="true">
+    <Position X="9.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQ=</HashCode>
+      <FileName>Wages\ISalary.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab3.Wages.IWage" Collapsed="true">
+    <Position X="10.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Wages\IWage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="lab4.Logger.EventType" Collapsed="true">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="lab4.Logger.OutputType" Collapsed="true">
+    <Position X="15" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
