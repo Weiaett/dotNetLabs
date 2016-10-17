@@ -40,7 +40,12 @@ namespace lab3
         //public delegate int Comp(IBook first, IBook second);
         void SortBooks(Comparison<T> comparator);
 
-        Task SortBooksAsync(Comparison<T> comparator, IProgress<int> progress);
+        /// <summary>
+        /// Асинхронная сортировка книг издательства с возможностью вывода прогресса сортировки
+        /// </summary>
+        /// <param name="comparator">Метод, сравнивающий два объекта одного типа</param>
+        /// <param name="progress">Метод, обеспечивающий прогресс прогресса сортировки</param>
+        Task SortBooksAsync(Comparison<T> comparator, Action<int, string> progress);
 
         /// <summary>
         /// Взаимодействие с сотрудниками

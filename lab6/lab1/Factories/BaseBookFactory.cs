@@ -40,11 +40,11 @@ namespace lab3.Factories
             Book book = new Book(writer, illustrator, publisher, title, CostPrice);
             Logger?.Subscribe(book);
             Random random = new Random();
-            for (int i = 0; i < random.Next(1, 6); i++)
-            {
+            //for (int i = 0; i < random.Next(1, 6); i++)
+            //{
                 writer.MakeBook(book);
                 illustrator.MakeBook(book);
-            }
+            //}
             publisher.MakeBook(book);
             //Console.WriteLine($"Закончена книга {title}");
             //Console.WriteLine();

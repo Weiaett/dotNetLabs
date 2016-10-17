@@ -1,6 +1,7 @@
 ﻿using lab3.Products;
 using System;
 using System.IO;
+using System.Threading;
 
 namespace lab4.Logger
 {
@@ -51,22 +52,32 @@ namespace lab4.Logger
             book.Illustrator.OnDoWork += (sender, args) => Actor_OnDoWork(sender, args, EventType.IllustratorWorks, book);
             book.Publisher.OnDoWork += (sender, args) => Actor_OnDoWork(sender, args, EventType.PublisherWorks, book);
         }
-
+        private readonly object locker = new object();
         private void Actor_OnDoWork(object sender, DoWorkArgs args, EventType eventType, IBook book)
         {
-            using (var writer = GetWriter())
+            
+            new Thread(() =>
             {
-                OnLog(sender, new OnLogArgs<IBook>() {
-                    Args = args,
-                    EventType = eventType,
-                    Output = writer,
-                    Sender = book
-                });
-            }
+                lock (locker)
+                {
+                    using (var writer = GetWriter())
+                    {
+                        OnLog(sender, new OnLogArgs<IBook>()
+                        {
+                            Args = args,
+                            EventType = eventType,
+                            Output = writer,
+                            Sender = book
+                        });
+                        // Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
+                    }
+                }
+            })
+            { IsBackground = true }.Start();
         }
 
         /// <summary>
-        /// Получить модуль записы
+        /// Получить модуль записи
         /// </summary>
         /// <returns></returns>
         public TextWriter GetWriter()

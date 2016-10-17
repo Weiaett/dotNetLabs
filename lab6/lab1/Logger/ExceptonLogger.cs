@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace lab5.Logger
 {
@@ -12,16 +13,23 @@ namespace lab5.Logger
 
         }
 
+        private readonly object locker = new object();
         /// <summary>
         /// Логирование системных исключений
         /// </summary>
         /// <param name="e">Логируемое исключение</param>
         public void LogSystemException(Exception e)
         {
-            using (var writer = GetWriter())
+            new Thread(() =>
             {
-                writer.WriteLine($"Системное исключение: {DateTime.Now}, {e.GetType()}, {e.Message}\n");
-            }
+                lock (locker)
+                {
+                    using (var writer = GetWriter())
+                    {
+                        writer.WriteLine($"Системное исключение: {DateTime.Now}, {e.GetType()}, {e.Message}\n");
+                    }
+                }
+            });
         }
 
         /// <summary>
@@ -30,10 +38,16 @@ namespace lab5.Logger
         /// <param name="e">Логируемое исключение</param>
         public void LogUserException(Exception ex)
         {
-            using (var writer = GetWriter())
+            new Thread(() =>
             {
-                writer.WriteLine($"Пользовательское исключение: {DateTime.Now}, {ex.GetType()}, {ex.Message}\n");
-            }
+                lock (locker)
+                {
+                    using (var writer = GetWriter())
+                    {
+                        writer.WriteLine($"Пользовательское исключение: {DateTime.Now}, {ex.GetType()}, {ex.Message}\n");
+                    }
+                }
+            });
         }
     }
 }

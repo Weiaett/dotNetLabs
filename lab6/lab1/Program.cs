@@ -7,6 +7,7 @@ using System;
 using System.IO;
 using lab5.Logger;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace lab3
 {
@@ -22,7 +23,7 @@ namespace lab3
             PublishingOffice<IBook> office = new PublishingOffice<IBook>("Буква");
 
             Console.WriteLine("Генерация книг");
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 1000; i++)
             {
                 office.Add(factory.MakeBook("Кац Яков Михайлович",
                                             "Шушпанов Аркадий Васильевич",
@@ -30,16 +31,9 @@ namespace lab3
                                             $"Книга {i}"));
 
             }
-            Console.WriteLine("Генерация завершена");
-            Task task = office.SortBooksAsync(Comparators.SortByPublicationYear, new Progress<int>(ShowProgress));
-            task.Wait();
-            //Console.Read();
-           office.PrintBooks();
-        }
-
-        private static void ShowProgress(int progress)
-        {
-            Console.WriteLine("Процент сортировки: {0}%", progress);
+            Console.WriteLine("Генерация завершена\n");
+            office.SortBooksAsync(Comparators.SortByPublicationYear,
+                (progressProcs, book) => Console.WriteLine($"Процент сортировки: {progressProcs}%\nКнига: {book}\n")).Wait();
         }
 
         private static void Logger_OnLog(object sender, OnLogArgs<IBook> e)

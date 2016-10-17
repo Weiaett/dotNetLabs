@@ -122,19 +122,18 @@ namespace lab3
             Console.WriteLine($"***");
         }
 
-        //Comparison — это делегат
-        //public delegate int Comp(IBook first, IBook second)
         public void SortBooks(Comparison<T> comparator)
         {
             books.Sort(comparator);
         }
 
-        public async Task SortBooksAsync(Comparison<T> comparator, IProgress<int> progress = null)
+        public async Task SortBooksAsync(Comparison<T> comparator, Action<int, string> progress)
         {
             await Task.Run(() =>
             {
-                int min, lastProg = -1;
-                for (int i = 0; i < books.Count; i++)
+                int min;
+
+                for (int i = 0; i < books.Count - 1; i++)
                 {
                     min = i;
                     for (int j = i + 1; j < books.Count; j++)
@@ -151,15 +150,11 @@ namespace lab3
                         books[i] = books[min];
                         books[min] = tmp;
                     }
-                    int prog = i * 100 / books.Count;
-                    if (prog != lastProg) // отчитываемся о прогрессе
-                    {
-                        progress?.Report(prog);
-                        lastProg = prog;
-                    }
-                   // progress?.Report(i * 100 / books.Count);
+
+                    progress(i * 100 / books.Count, books[i].ToString());
+
                 }
-                progress?.Report(100);
+                progress(100, books[books.Count - 1].ToString());
             });
         }
 
