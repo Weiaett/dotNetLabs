@@ -11,6 +11,7 @@ namespace lab3.Actors
     [Serializable]
     public class Illustrator<T> : Actor<T> where T : Salary
     {
+        [field: NonSerialized]
         public override event EventHandler<DoWorkArgs> OnDoWork;
         public Illustrator(string name, T salary) : base(name, salary)
         {

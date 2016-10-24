@@ -21,7 +21,7 @@ namespace lab5.Serializers
         public void Serialize(PublishingOffice<T> office, string fileName)
         {
             using (StreamWriter streamWriter = new StreamWriter(fileName))
-            using (JsonWriter writer = new JsonTextWriter(streamWriter))
+            using (JsonTextWriter writer = new JsonTextWriter(streamWriter))
             {
                 serializer.Serialize(writer, office);
             }

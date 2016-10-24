@@ -3,15 +3,7 @@
     "CostPrice": 150,
     "Illustrations": [
       {
-        "Page": 26,
-        "Title": null
-      },
-      {
-        "Page": 69,
-        "Title": null
-      },
-      {
-        "Page": 192,
+        "Page": 15,
         "Title": null
       }
     ],
@@ -19,19 +11,81 @@
       "Name": "Шушпанов Аркадий Васильевич",
       "Salary": null
     },
-    "PublicationYear": 2190,
+    "PublicationYear": 2016,
     "Publisher": {
       "Name": "Черногорская Маринна Витальевна",
       "Salary": null
     },
     "Text": {
-      "PagesNum": 243,
+      "PagesNum": 96,
       "Title": null
     },
     "Writer": {
       "Name": "Кац Яков Михайлович",
       "Salary": null
     },
-    "Title": "О добре и зле"
+    "Title": "Книга 0"
+  },
+  {
+    "CostPrice": 150,
+    "Illustrations": [
+      {
+        "Page": 11,
+        "Title": null
+      }
+    ],
+    "Illustrator": {
+      "Name": "Шушпанов Аркадий Васильевич",
+      "Salary": null
+    },
+    "PublicationYear": 1852,
+    "Publisher": {
+      "Name": "Черногорская Маринна Витальевна",
+      "Salary": null
+    },
+    "Text": {
+      "PagesNum": 25,
+      "Title": null
+    },
+    "Writer": {
+      "Name": "Кац Яков Михайлович",
+      "Salary": null
+    },
+    "Title": "Книга 1"
+  },
+  {
+    "CostPrice": 150,
+    "Illustrations": [
+      {
+        "Page": 10,
+        "Title": null
+      },
+      {
+        "Page": 95,
+        "Title": null
+      },
+      {
+        "Page": 27,
+        "Title": null
+      }
+    ],
+    "Illustrator": {
+      "Name": "Шушпанов Аркадий Васильевич",
+      "Salary": null
+    },
+    "PublicationYear": 1708,
+    "Publisher": {
+      "Name": "Черногорская Маринна Витальевна",
+      "Salary": null
+    },
+    "Text": {
+      "PagesNum": 161,
+      "Title": null
+    },
+    "Writer": {
+      "Name": "Кац Яков Михайлович",
+      "Salary": null
+    },
+    "Title": "Книга 2"
   }
 ]

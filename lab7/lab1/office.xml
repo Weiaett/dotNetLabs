@@ -5,21 +5,27 @@
     <CostPrice>150</CostPrice>
     <Illustrations>
       <Illustration>
-        <Page>10</Page>
+        <Page>9</Page>
       </Illustration>
       <Illustration>
-        <Page>14</Page>
+        <Page>47</Page>
+      </Illustration>
+      <Illustration>
+        <Page>114</Page>
+      </Illustration>
+      <Illustration>
+        <Page>114</Page>
       </Illustration>
     </Illustrations>
     <Illustrator>
       <Name>Шушпанов Аркадий Васильевич</Name>
     </Illustrator>
-    <PublicationYear>1748</PublicationYear>
+    <PublicationYear>2020</PublicationYear>
     <Publisher>
       <Name>Черногорская Маринна Витальевна</Name>
     </Publisher>
     <Text>
-      <PagesNum>45</PagesNum>
+      <PagesNum>191</PagesNum>
     </Text>
     <Writer>
       <Name>Кац Яков Михайлович</Name>
@@ -32,16 +38,19 @@
       <Illustration>
         <Page>20</Page>
       </Illustration>
+      <Illustration>
+        <Page>73</Page>
+      </Illustration>
     </Illustrations>
     <Illustrator>
       <Name>Шушпанов Аркадий Васильевич</Name>
     </Illustrator>
-    <PublicationYear>1887</PublicationYear>
+    <PublicationYear>1989</PublicationYear>
     <Publisher>
       <Name>Черногорская Маринна Витальевна</Name>
     </Publisher>
     <Text>
-      <PagesNum>73</PagesNum>
+      <PagesNum>89</PagesNum>
     </Text>
     <Writer>
       <Name>Кац Яков Михайлович</Name>
@@ -52,21 +61,24 @@
     <CostPrice>150</CostPrice>
     <Illustrations>
       <Illustration>
-        <Page>15</Page>
+        <Page>48</Page>
       </Illustration>
       <Illustration>
-        <Page>65</Page>
+        <Page>122</Page>
+      </Illustration>
+      <Illustration>
+        <Page>69</Page>
       </Illustration>
     </Illustrations>
     <Illustrator>
       <Name>Шушпанов Аркадий Васильевич</Name>
     </Illustrator>
-    <PublicationYear>1777</PublicationYear>
+    <PublicationYear>2176</PublicationYear>
     <Publisher>
       <Name>Черногорская Маринна Витальевна</Name>
     </Publisher>
     <Text>
-      <PagesNum>79</PagesNum>
+      <PagesNum>225</PagesNum>
     </Text>
     <Writer>
       <Name>Кац Яков Михайлович</Name>

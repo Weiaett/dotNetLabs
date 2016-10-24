@@ -40,11 +40,12 @@ namespace lab3
 
             PublishingOffice<Book> evilOffice = new PublishingOffice<Book>();
             //evilOffice = jsonSerializer.Deserialize(Path.Combine(projectPath, "office_input.json"));
-            evilOffice = xmlSerializer.Deserialize(Path.Combine(projectPath, "office_input.xml"));
-            jsonSerializer.Serialize(evilOffice, Path.Combine(projectPath, "office_output.json"));
-            binSerializer.Serialize(evilOffice, Path.Combine(projectPath, "office_output.bin"));
+            //evilOffice = xmlSerializer.Deserialize(Path.Combine(projectPath, "office_input.xml"));
+            evilOffice = binSerializer.Deserialize(Path.Combine(projectPath, "office_input.bin"));
 
-            //binSerializer.Serialize(office, Path.Combine(projectPath, "office.bin"));
+            jsonSerializer.Serialize(evilOffice, Path.Combine(projectPath, "office_output.json")); // проверка
+
+            binSerializer.Serialize(office, Path.Combine(projectPath, "office.bin"));
             jsonSerializer.Serialize(office, Path.Combine(projectPath, "office.json"));
             xmlSerializer.Serialize(office, Path.Combine(projectPath, "office.xml"));
 

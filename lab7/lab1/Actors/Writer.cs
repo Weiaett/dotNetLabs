@@ -11,6 +11,7 @@ namespace lab3.Actors
     [Serializable]
     public class Writer<T> : Actor<T> where T : Salary
     {
+        [field: NonSerialized]
         public override event EventHandler<DoWorkArgs> OnDoWork;
 
         public Writer(string name, T salary) : base(name, salary)
