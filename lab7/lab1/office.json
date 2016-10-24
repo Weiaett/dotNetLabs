@@ -3,19 +3,7 @@
     "CostPrice": 150,
     "Illustrations": [
       {
-        "Page": 9,
-        "Title": null
-      },
-      {
-        "Page": 47,
-        "Title": null
-      },
-      {
-        "Page": 114,
-        "Title": null
-      },
-      {
-        "Page": 114,
+        "Page": 10,
         "Title": null
       }
     ],
@@ -23,13 +11,13 @@
       "Name": "Шушпанов Аркадий Васильевич",
       "Salary": null
     },
-    "PublicationYear": 2020,
+    "PublicationYear": 1830,
     "Publisher": {
       "Name": "Черногорская Маринна Витальевна",
       "Salary": null
     },
     "Text": {
-      "PagesNum": 191,
+      "PagesNum": 54,
       "Title": null
     },
     "Writer": {
@@ -42,11 +30,15 @@
     "CostPrice": 150,
     "Illustrations": [
       {
-        "Page": 20,
+        "Page": 32,
         "Title": null
       },
       {
-        "Page": 73,
+        "Page": 74,
+        "Title": null
+      },
+      {
+        "Page": 100,
         "Title": null
       }
     ],
@@ -54,13 +46,13 @@
       "Name": "Шушпанов Аркадий Васильевич",
       "Salary": null
     },
-    "PublicationYear": 1989,
+    "PublicationYear": 1961,
     "Publisher": {
       "Name": "Черногорская Маринна Витальевна",
       "Salary": null
     },
     "Text": {
-      "PagesNum": 89,
+      "PagesNum": 209,
       "Title": null
     },
     "Writer": {
@@ -73,15 +65,11 @@
     "CostPrice": 150,
     "Illustrations": [
       {
-        "Page": 48,
+        "Page": 27,
         "Title": null
       },
       {
-        "Page": 122,
-        "Title": null
-      },
-      {
-        "Page": 69,
+        "Page": 26,
         "Title": null
       }
     ],
@@ -89,13 +77,13 @@
       "Name": "Шушпанов Аркадий Васильевич",
       "Salary": null
     },
-    "PublicationYear": 2176,
+    "PublicationYear": 1872,
     "Publisher": {
       "Name": "Черногорская Маринна Витальевна",
       "Salary": null
     },
     "Text": {
-      "PagesNum": 225,
+      "PagesNum": 67,
       "Title": null
     },
     "Writer": {

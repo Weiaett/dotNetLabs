@@ -5,27 +5,18 @@
     <CostPrice>150</CostPrice>
     <Illustrations>
       <Illustration>
-        <Page>9</Page>
-      </Illustration>
-      <Illustration>
-        <Page>47</Page>
-      </Illustration>
-      <Illustration>
-        <Page>114</Page>
-      </Illustration>
-      <Illustration>
-        <Page>114</Page>
+        <Page>10</Page>
       </Illustration>
     </Illustrations>
     <Illustrator>
       <Name>Шушпанов Аркадий Васильевич</Name>
     </Illustrator>
-    <PublicationYear>2020</PublicationYear>
+    <PublicationYear>1830</PublicationYear>
     <Publisher>
       <Name>Черногорская Маринна Витальевна</Name>
     </Publisher>
     <Text>
-      <PagesNum>191</PagesNum>
+      <PagesNum>54</PagesNum>
     </Text>
     <Writer>
       <Name>Кац Яков Михайлович</Name>
@@ -36,21 +27,24 @@
     <CostPrice>150</CostPrice>
     <Illustrations>
       <Illustration>
-        <Page>20</Page>
+        <Page>32</Page>
       </Illustration>
       <Illustration>
-        <Page>73</Page>
+        <Page>74</Page>
+      </Illustration>
+      <Illustration>
+        <Page>100</Page>
       </Illustration>
     </Illustrations>
     <Illustrator>
       <Name>Шушпанов Аркадий Васильевич</Name>
     </Illustrator>
-    <PublicationYear>1989</PublicationYear>
+    <PublicationYear>1961</PublicationYear>
     <Publisher>
       <Name>Черногорская Маринна Витальевна</Name>
     </Publisher>
     <Text>
-      <PagesNum>89</PagesNum>
+      <PagesNum>209</PagesNum>
     </Text>
     <Writer>
       <Name>Кац Яков Михайлович</Name>
@@ -61,24 +55,21 @@
     <CostPrice>150</CostPrice>
     <Illustrations>
       <Illustration>
-        <Page>48</Page>
+        <Page>27</Page>
       </Illustration>
       <Illustration>
-        <Page>122</Page>
-      </Illustration>
-      <Illustration>
-        <Page>69</Page>
+        <Page>26</Page>
       </Illustration>
     </Illustrations>
     <Illustrator>
       <Name>Шушпанов Аркадий Васильевич</Name>
     </Illustrator>
-    <PublicationYear>2176</PublicationYear>
+    <PublicationYear>1872</PublicationYear>
     <Publisher>
       <Name>Черногорская Маринна Витальевна</Name>
     </Publisher>
     <Text>
-      <PagesNum>225</PagesNum>
+      <PagesNum>67</PagesNum>
     </Text>
     <Writer>
       <Name>Кац Яков Михайлович</Name>

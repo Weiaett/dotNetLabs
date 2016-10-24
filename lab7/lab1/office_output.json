@@ -3,7 +3,15 @@
     "CostPrice": 150,
     "Illustrations": [
       {
-        "Page": 15,
+        "Page": 63,
+        "Title": null
+      },
+      {
+        "Page": 71,
+        "Title": null
+      },
+      {
+        "Page": 136,
         "Title": null
       }
     ],
@@ -11,13 +19,13 @@
       "Name": "Шушпанов Аркадий Васильевич",
       "Salary": null
     },
-    "PublicationYear": 2016,
+    "PublicationYear": 2026,
     "Publisher": {
       "Name": "Черногорская Маринна Витальевна",
       "Salary": null
     },
     "Text": {
-      "PagesNum": 96,
+      "PagesNum": 261,
       "Title": null
     },
     "Writer": {
@@ -30,7 +38,7 @@
     "CostPrice": 150,
     "Illustrations": [
       {
-        "Page": 11,
+        "Page": 36,
         "Title": null
       }
     ],
@@ -38,13 +46,13 @@
       "Name": "Шушпанов Аркадий Васильевич",
       "Salary": null
     },
-    "PublicationYear": 1852,
+    "PublicationYear": 2155,
     "Publisher": {
       "Name": "Черногорская Маринна Витальевна",
       "Salary": null
     },
     "Text": {
-      "PagesNum": 25,
+      "PagesNum": 42,
       "Title": null
     },
     "Writer": {
@@ -57,15 +65,11 @@
     "CostPrice": 150,
     "Illustrations": [
       {
-        "Page": 10,
+        "Page": 47,
         "Title": null
       },
       {
-        "Page": 95,
-        "Title": null
-      },
-      {
-        "Page": 27,
+        "Page": 45,
         "Title": null
       }
     ],
@@ -73,13 +77,13 @@
       "Name": "Шушпанов Аркадий Васильевич",
       "Salary": null
     },
-    "PublicationYear": 1708,
+    "PublicationYear": 2042,
     "Publisher": {
       "Name": "Черногорская Маринна Витальевна",
       "Salary": null
     },
     "Text": {
-      "PagesNum": 161,
+      "PagesNum": 148,
       "Title": null
     },
     "Writer": {
