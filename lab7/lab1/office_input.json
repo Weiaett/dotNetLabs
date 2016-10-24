@@ -1,0 +1,37 @@
+[
+  {
+    "CostPrice": 150,
+    "Illustrations": [
+      {
+        "Page": 26,
+        "Title": null
+      },
+      {
+        "Page": 69,
+        "Title": null
+      },
+      {
+        "Page": 192,
+        "Title": null
+      }
+    ],
+    "Illustrator": {
+      "Name": "Шушпанов Аркадий Васильевич",
+      "Salary": null
+    },
+    "PublicationYear": 2190,
+    "Publisher": {
+      "Name": "Черногорская Маринна Витальевна",
+      "Salary": null
+    },
+    "Text": {
+      "PagesNum": 243,
+      "Title": null
+    },
+    "Writer": {
+      "Name": "Кац Яков Михайлович",
+      "Salary": null
+    },
+    "Title": "О добре и зле"
+  }
+]

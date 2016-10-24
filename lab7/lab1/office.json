@@ -1,0 +1,91 @@
+[
+  {
+    "CostPrice": 150,
+    "Illustrations": [
+      {
+        "Page": 10,
+        "Title": null
+      },
+      {
+        "Page": 14,
+        "Title": null
+      }
+    ],
+    "Illustrator": {
+      "Name": "Шушпанов Аркадий Васильевич",
+      "Salary": null
+    },
+    "PublicationYear": 1748,
+    "Publisher": {
+      "Name": "Черногорская Маринна Витальевна",
+      "Salary": null
+    },
+    "Text": {
+      "PagesNum": 45,
+      "Title": null
+    },
+    "Writer": {
+      "Name": "Кац Яков Михайлович",
+      "Salary": null
+    },
+    "Title": "Книга 0"
+  },
+  {
+    "CostPrice": 150,
+    "Illustrations": [
+      {
+        "Page": 20,
+        "Title": null
+      }
+    ],
+    "Illustrator": {
+      "Name": "Шушпанов Аркадий Васильевич",
+      "Salary": null
+    },
+    "PublicationYear": 1887,
+    "Publisher": {
+      "Name": "Черногорская Маринна Витальевна",
+      "Salary": null
+    },
+    "Text": {
+      "PagesNum": 73,
+      "Title": null
+    },
+    "Writer": {
+      "Name": "Кац Яков Михайлович",
+      "Salary": null
+    },
+    "Title": "Книга 1"
+  },
+  {
+    "CostPrice": 150,
+    "Illustrations": [
+      {
+        "Page": 15,
+        "Title": null
+      },
+      {
+        "Page": 65,
+        "Title": null
+      }
+    ],
+    "Illustrator": {
+      "Name": "Шушпанов Аркадий Васильевич",
+      "Salary": null
+    },
+    "PublicationYear": 1777,
+    "Publisher": {
+      "Name": "Черногорская Маринна Витальевна",
+      "Salary": null
+    },
+    "Text": {
+      "PagesNum": 79,
+      "Title": null
+    },
+    "Writer": {
+      "Name": "Кац Яков Михайлович",
+      "Salary": null
+    },
+    "Title": "Книга 2"
+  }
+]

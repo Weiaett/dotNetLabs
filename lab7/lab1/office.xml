@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Book>
+    <Title>Книга 0</Title>
+    <CostPrice>150</CostPrice>
+    <Illustrations>
+      <Illustration>
+        <Page>10</Page>
+      </Illustration>
+      <Illustration>
+        <Page>14</Page>
+      </Illustration>
+    </Illustrations>
+    <Illustrator>
+      <Name>Шушпанов Аркадий Васильевич</Name>
+    </Illustrator>
+    <PublicationYear>1748</PublicationYear>
+    <Publisher>
+      <Name>Черногорская Маринна Витальевна</Name>
+    </Publisher>
+    <Text>
+      <PagesNum>45</PagesNum>
+    </Text>
+    <Writer>
+      <Name>Кац Яков Михайлович</Name>
+    </Writer>
+  </Book>
+  <Book>
+    <Title>Книга 1</Title>
+    <CostPrice>150</CostPrice>
+    <Illustrations>
+      <Illustration>
+        <Page>20</Page>
+      </Illustration>
+    </Illustrations>
+    <Illustrator>
+      <Name>Шушпанов Аркадий Васильевич</Name>
+    </Illustrator>
+    <PublicationYear>1887</PublicationYear>
+    <Publisher>
+      <Name>Черногорская Маринна Витальевна</Name>
+    </Publisher>
+    <Text>
+      <PagesNum>73</PagesNum>
+    </Text>
+    <Writer>
+      <Name>Кац Яков Михайлович</Name>
+    </Writer>
+  </Book>
+  <Book>
+    <Title>Книга 2</Title>
+    <CostPrice>150</CostPrice>
+    <Illustrations>
+      <Illustration>
+        <Page>15</Page>
+      </Illustration>
+      <Illustration>
+        <Page>65</Page>
+      </Illustration>
+    </Illustrations>
+    <Illustrator>
+      <Name>Шушпанов Аркадий Васильевич</Name>
+    </Illustrator>
+    <PublicationYear>1777</PublicationYear>
+    <Publisher>
+      <Name>Черногорская Маринна Витальевна</Name>
+    </Publisher>
+    <Text>
+      <PagesNum>79</PagesNum>
+    </Text>
+    <Writer>
+      <Name>Кац Яков Михайлович</Name>
+    </Writer>
+  </Book>
+</ArrayOfBook>
